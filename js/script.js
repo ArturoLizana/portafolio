@@ -6,14 +6,7 @@ menuIcon.onclick = () => {
     menuIcon.classList.toggle('bx-x');
     navbar.classList.toggle('active');
 };
-/** boton flotante */
 
-const btnMenu = document.querySelector('#menu');
-    botonFlotante = document.querySelector('.boton-flotante');
-
-btnMenu.addEventListener('click', () => {
-    botonFlotante.classList.toggle('menu-active');
-});
 
 /* scroll sections active link */
 let sections = document.querySelectorAll('section');
@@ -59,7 +52,7 @@ ScrollReveal().reveal('.Accueil-content p, .apropos-content', { origin: 'right' 
 
 /* typed js */
 const typed = new Typed('.multiple-text', {
-    strings: ['Front-end Developer', 'Back-end developer'],
+    strings: ['Front-end Developer Junior', 'Back-end Developer Junior'],
     typeSpeed: 100,
     backspeed: 100,
     backDelay: 1000,
